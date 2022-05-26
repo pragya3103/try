@@ -114,4 +114,4 @@ with open('C://Users//Pragya Jain//Downloads//341_points.csv', 'r') as read_obj:
 
 
 query = twitter.search.tweets(q = "", lang = "en", geocode = "%f,%f,%dkm" % (float(list_of_tuples[0][2]), float(list_of_tuples[0][3]), max_range), count = 1000, max_id = last_id)
-        
+###pragya    
